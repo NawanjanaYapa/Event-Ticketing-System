@@ -1,0 +1,109 @@
+/* Customer Dashboard CSS */
+
+/* Main Container Styling */
+.customer-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: rgb(142, 154, 154);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 10x;
+    text-align: center;
+    font-size: 36px;
+    margin-top:-70px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Event Section (Left Side) */
+  .event-card {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card h4 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .ticket-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Ticket Item Styling */
+  .ticket-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .ticket-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-details {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .book-btn, .cancel-btn {
+    background-color: #6200ea; /* Purple */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .book-btn:hover, .cancel-btn:hover {
+    background-color: #3700b3; /* Darker purple */
+    transform: scale(1.05);
+  }
+  
+  /* Booked Tickets Section */
+  .booked-tickets-list {
+    margin-top: 30px;
+  }
+  
+  .booked-tickets-list .ticket-item {
+    background-color: #e9f7fc;
+  }
+  
+  .booked-tickets-list .ticket-details p {
+    font-weight: bold;
+  }
+  
+  /* Ticket Cancel Button */
+  .cancel-btn {
+    background-color: #f44336; /* Red */
+  }
+  
+  .cancel-btn:hover {
+    background-color: #d32f2f;
+  }
+  
